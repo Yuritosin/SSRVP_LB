@@ -38,7 +38,7 @@ app.post('/login', (req, res) => {
     
     if (user) {
         res.status(200).json({ 
-            message: 'Успешный вход',
+            message: 'Успешный вход 1123',
             user: {
                 username: user.username,
                 email: user.email, // Возвращаем email
